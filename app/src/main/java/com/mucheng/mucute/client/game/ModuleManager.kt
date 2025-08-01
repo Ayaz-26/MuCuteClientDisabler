@@ -43,6 +43,7 @@ import com.mucheng.mucute.client.game.module.effect.WitherModule
 import com.mucheng.mucute.client.game.module.misc.BaritoneModule
 import com.mucheng.mucute.client.game.module.misc.CommandHandlerModule
 import com.mucheng.mucute.client.game.module.misc.DesyncModule
+import com.mucheng.mucute.client.game.module.misc.DisablerModule
 import com.mucheng.mucute.client.game.module.misc.FakeDeathModule
 import com.mucheng.mucute.client.game.module.misc.FakeXPModule
 import com.mucheng.mucute.client.game.module.misc.NoChatModule
@@ -145,6 +146,7 @@ object ModuleManager {
             add(DarknessModule())
             add(TimeShiftModule())
             add(WeatherControllerModule())
+            add(DisablerModule())
             add(FakeDeathModule())
             add(ExplosionParticleModule())
             add(BubbleParticleModule())
